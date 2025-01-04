@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body className={`${notoSans.variable}`}>
+      <body className={`${notoSans.className} max-w-lg mx-auto`}>
         <Header />
         {children}
       </body>
